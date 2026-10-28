@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Bridget Pais - Personal Portfolio">
+    <meta name="author" content="Bridget Pais">
+
+    <title>Bridget Pais | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="header">
+        <nav class="navbar">
+
+            <a href="#home" class="logo">
+                Bridget <span>Pais</span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <!-- ================= HOME ================= -->
+
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+
+                <p class="small-heading">HELLO, I'M</p>
+
+                <h1>
+                    Bridget <span>Pais</span>
+                </h1>
+
+                <h2>
+                    B.Sc. IT Student |
+                    <span>Aspiring Full Stack Developer</span>
+                </h2>
+
+                <p class="hero-description">
+                    I'm passionate about technology, web development and
+                    creating meaningful digital experiences. I enjoy learning
+                    new skills and turning ideas into practical projects.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#projects" class="btn primary-btn">
+                        View My Work
+                    </a>
+
+                    <a href="#contact" class="btn secondary-btn">
+                        Contact Me
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-image-container">
+
+                <div class="image-circle">
+
+                    <img
+                        src="images/bridget.jpg"
+                        alt="Bridget Pais"
+                    >
+
+                </div>
+
+                <div class="floating-card card-one">
+                    <span>💻</span>
+                    <p>Web Development</p>
+                </div>
+
+                <div class="floating-card card-two">
+                    <span>✨</span>
+                    <p>Always Learning</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section class="section about-section" id="about">
+
+            <div class="section-heading">
+                <p>GET TO KNOW ME</p>
+                <h2>About Me</h2>
+            </div>
+
+            <div class="about-container">
+
+                <div class="about-text">
+
+                    <h3>About Me</h3>
+
+                    <p>
+                        I am a
+                        <span class="about-highlight">BSc-IT student</span>
+                        currently pursuing my
+                        <span class="about-highlight">Second Year (SY)</span>
+                        at
+                        <span class="about-highlight">Sophia College For Women, Mumbai</span>
+                        I am passionate about
+                        <span class="about-highlight cyan">Web Development</span>
+                        and
+                        <span class="about-highlight">Software Development</span>.
+                        I enjoy creating
+                        <span class="about-highlight cyan">creative and user-friendly websites</span>
+                        and working on
+                        <span class="about-highlight">real-world projects</span>.
+                    </p>
+
+                    <p>
+                        I am continuously improving my
+                        <span class="about-highlight">technical skills</span>
+                        while exploring new technologies and building projects that
+                        <span class="about-highlight cyan">solve practical problems</span>.
+                    </p>
+
+                    <a href="#contact" class="text-link">
+                        Let's Connect →
+                    </a>
+
+                </div>
+
+                <div class="about-info">
+
+                    <div class="info-box">
+
+                        <span class="info-icon">🎓</span>
+
+                        <div>
+                            <h4>Education</h4>
+                            <p>Computer Science Student</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="info-box">
+
+                        <span class="info-icon">💻</span>
+
+                        <div>
+                            <h4>Interests</h4>
+                            <p>Web Development & Programming</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="info-box">
+
+                        <span class="info-icon">🚀</span>
+
+                        <div>
+                            <h4>Currently</h4>
+                            <p>Learning & Building Projects</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SKILLS ================= -->
+
+        <section class="section skills-section" id="skills">
+
+            <div class="section-heading">
+
+                <p>WHAT I KNOW</p>
+
+                <h2>My Skills</h2>
+
+            </div>
+
+
+            <!-- Skill Filter Buttons -->
+
+            <div class="skill-filters">
+
+                <button
+                    class="filter-btn active"
+                    data-filter="all"
+                >
+                    All
+                </button>
+
+                <button
+                    class="filter-btn"
+                    data-filter="frontend"
+                >
+                    Frontend
+                </button>
+
+                <button
+                    class="filter-btn"
+                    data-filter="backend"
+                >
+                    Backend
+                </button>
+
+                <button
+                    class="filter-btn"
+                    data-filter="database"
+                >
+                    Database
+                </button>
+
+                <button
+                    class="filter-btn"
+                    data-filter="programming"
+                >
+                    Programming
+                </button>
+
+                <button
+                    class="filter-btn"
+                    data-filter="tools"
+                >
+                    Tools
+                </button>
+
+            </div>
+
+
+            <!-- Skills Cards -->
+
+            <div class="skills-grid">
+
+
+                <!-- Frontend -->
+
+                <div
+                    class="skill-card"
+                    data-category="frontend"
+                >
+
+                    <div class="skill-icon">HTML</div>
+
+                    <h3>HTML5</h3>
+
+                    <p>
+                        Creating structured and semantic web pages.
+                    </p>
+
+                </div>
+
+
+                <div
+                    class="skill-card"
+                    data-category="frontend"
+                >
+
+                    <div class="skill-icon">CSS</div>
+
+                    <h3>CSS3</h3>
+
+                    <p>
+                        Designing responsive and visually appealing websites.
+                    </p>
+
+                </div>
+
+
+                <div
+                    class="skill-card"
+                    data-category="frontend"
+                >
+
+                    <div class="skill-icon">JS</div>
+
+                    <h3>JavaScript</h3>
+
+                    <p>
+                        Adding interactivity and dynamic functionality
+                        to websites.
+                    </p>
+
+                </div>
+
+
+                <!-- Backend -->
+
+                <div
+                    class="skill-card"
+                    data-category="backend"
+                >
+
+                    <div class="skill-icon">Node</div>
+
+                    <h3>Node.js</h3>
+
+                    <p>
+                        Building server-side applications and APIs
+                        using JavaScript.
+                    </p>
+
+                </div>
+
+
+                <div
+                    class="skill-card"
+                    data-category="backend"
+                >
+
+                    <div class="skill-icon">PHP</div>
+
+                    <h3>Backend Development</h3>
+
+                    <p>
+                        Understanding server-side programming and
+                        application logic.
+                    </p>
+
+                </div>
+
+
+                <!-- Database -->
+
+                <div
+                    class="skill-card"
+                    data-category="database"
+                >
+
+                    <div class="skill-icon">SQL</div>
+
+                    <h3>SQL</h3>
+
+                    <p>
+                        Working with relational databases and SQL queries.
+                    </p>
+
+                </div>
+
+                <div
+                    class="skill-card"
+                    data-category="database"
+                >
+
+                    <div class="skill-icon">MySQL</div>
+
+                    <h3>MySQL</h3>
+
+                    <p>
+                        A relational database management system used to store, 
+                        organize, manage and retrieve structured data using SQL.
+                    </p>
+
+                </div>
+
+
+                <div
+                    class="skill-card"
+                    data-category="database"
+                >
+
+                    <div class="skill-icon">DB</div>
+
+                    <h3>Database Management</h3>
+
+                    <p>
+                        Understanding tables, queries and database concepts.
+                    </p>
+
+                </div>
+
+
+                <!-- Programming -->
+
+                <div
+                    class="skill-card"
+                    data-category="programming"
+                >
+
+                    <div class="skill-icon">C</div>
+
+                    <h3>C</h3>
+
+                    <p>
+                        Understanding programming fundamentals and
+                        problem-solving.
+                    </p>
+
+                </div>
+
+
+                <div
+                    class="skill-card"
+                    data-category="programming"
+                >
+
+                    <div class="skill-icon">C++</div>
+
+                    <h3>C++</h3>
+
+                    <p>
+                        Object-oriented programming and programming logic.
+                    </p>
+
+                </div>
+
+                <div
+                    class="skill-card"
+                    data-category="programming"
+                >
+
+                    <div class="skill-icon">Python</div>
+
+                    <h3>Python</h3>
+
+                    <p>
+                        A versatile programming language used for problemsolving, 
+                        automation, scripting, and application development.
+                    </p>
+
+                </div>
+
+
+                <!-- Tools -->
+
+                <div
+                    class="skill-card"
+                    data-category="tools"
+                >
+
+                    <div class="skill-icon">XAMPP</div>
+
+                    <h3>XAMPP</h3>
+
+                    <p>
+                        A local development environment used to run web applications 
+                        with Apache, MySQL, and other development components.
+                    </p>
+
+                </div>
+
+                <div
+                    class="skill-card"
+                    data-category="tools"
+                >
+
+                    <div class="skill-icon">Git</div>
+
+                    <h3>Git</h3>
+
+                    <p>
+                        Tracking changes and managing source code.
+                    </p>
+
+                </div>
+
+
+                <div
+                    class="skill-card"
+                    data-category="tools"
+                >
+
+                    <div class="skill-icon">GH</div>
+
+                    <h3>GitHub</h3>
+
+                    <p>
+                        Hosting, managing and sharing software projects.
+                    </p>
+
+                </div>
+
+                <div
+                    class="skill-card"
+                    data-category="tools"
+                >
+
+                    <div class="skill-icon">PMA</div>
+
+                    <h3>phpMyAdmin</h3>
+
+                    <p>
+                        A web-based tool used to manage MySql databases.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROJECTS ================= -->
+
+        <section class="section projects-section" id="projects">
+
+            <div class="section-heading">
+                <p>THINGS I'VE BUILT</p>
+                <h2>Projects</h2>
+            </div>
+
+            <div class="projects-grid">
+
+                <!-- ================= ZOMBIE SURVIVAL ================= -->
+
+                <article class="project-card">
+
+                    <div class="project-icon">
+                        🧟
+                    </div>
+
+                    <div class="project-content">
+
+                        <h3>Zombie Survival</h3>
+
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Pygame</span>
+                        </div>
+
+                        <p>
+                            A pixel-art zombie survival game developed using
+                            Python and Pygame, featuring multiple levels,
+                            player movement, shooting mechanics, enemy waves,
+                            health system, and progressive level unlocking.
+                        </p>
+
+                        <a
+                            href="https://github.com/bridget-pais/Zombie-Survival.git"
+                            class="view-project"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            View Project
+                            <span>→</span>
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- ================= BLOODHELP ================= -->
+
+                <article class="project-card">
+
+                    <div class="project-icon">
+                        🩸
+                    </div>
+
+                    <div class="project-content">
+
+                        <h3>BloodHelp</h3>
+
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>MySQL</span>
+                        </div>
+
+                        <p>
+                            A blood donation management website designed to
+                            help users register as donors and manage donor
+                            information through an interactive interface.
+                        </p>
+
+                        <a
+                            href="projects/bloodhelp/index.html"
+                            class="view-project"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            View Project
+                            <span>→</span>
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- ================= STUDYHUB ================= -->
+
+                <article class="project-card">
+
+                    <div class="project-icon">
+                        📚
+                    </div>
+
+                    <div class="project-content">
+
+                        <h3>StudyHub</h3>
+
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>MySQL</span>
+                        </div>
+
+                        <p>
+                            A student-focused productivity website featuring
+                            a timetable, calendar, tasks, notes, and a dark
+                            mode for a more convenient study experience.
+                        </p>
+
+                        <a
+                            href="projects/studyhub/index.html"
+                            class="view-project"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            View Project
+                            <span>→</span>
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+<!-- =====================================================
+             CONTACT
+        ====================================================== -->
+
+        <section class="section contact-section" id="contact">
+
+            <div class="section-heading">
+
+                <p>GET IN TOUCH</p>
+
+                <h2>Contact Me</h2>
+
+            </div>
+
+
+            <div class="contact-container">
+
+
+                <!-- RIGHT: CONTACT DETAILS -->
+
+                <div class="contact-details-wrapper">
+
+                    <div class="contact-intro">
+
+                        <h3>
+                            Let's connect.
+                        </h3>
+
+                        <p>
+                            Have a project idea, opportunity or just want
+                            to say hello? Feel free to reach out through
+                            any of the platforms below.
+                        </p>
+
+                    </div>
+
+
+                    <div class="contact-details">
+
+
+                    <!-- Email -->
+
+                    <a
+                        href="mailto:your-email@example.com"
+                        class="contact-item"
+                    >
+
+                        <span class="contact-icon">📧</span>
+
+                        <div>
+
+                            <small>Email</small>
+
+                            <p>
+                                paisbridget3@email.com
+                            </p>
+
+                        </div>
+
+                    </a>
+
+
+                    <!-- GitHub -->
+
+                    <a
+                        href="https://github.com/bridget-pais"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="contact-item"
+                    >
+
+                        <span class="contact-icon">💻</span>
+
+                        <div>
+
+                            <small>GitHub</small>
+
+                            <p>
+                                Visit my GitHub
+                            </p>
+
+                        </div>
+
+                    </a>
+
+
+                    <!-- LinkedIn -->
+
+                    <a
+                        href="https://www.linkedin.com/in/bridget-pais-324b85378"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="contact-item"
+                    >
+
+                        <span class="contact-icon">🔗</span>
+
+                        <div>
+
+                            <small>LinkedIn</small>
+
+                            <p>
+                                Connect with me
+                            </p>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- LEFT: CONTACT FORM -->
+
+            <div class="contact-form-wrapper">
+
+                <form id="contactForm" class="contact-form">
+
+                    <div class="form-group">
+
+                        <label for="name">
+                            Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Enter your name"
+                            required>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter your email"
+                            required>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="subject">
+                            Subject
+                        </label>
+
+                        <input
+                            type="text"
+                            id="subject"
+                            name="subject"
+                            placeholder="Enter subject"
+                            required>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="message">
+                            Message
+                        </label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="6"
+                            placeholder="Write your message..."
+                            required></textarea>
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="send-message-btn">
+
+                        <span>Send Message</span>
+
+                        <span class="send-arrow">
+                            →
+                        </span>
+
+                    </button>
+
+
+                    <p
+                        id="formMessage"
+                        class="form-message">
+                    </p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <p>
+            © <span id="current-year"></span>
+            Bridget Pais. All Rights Reserved.
+        </p>
+
+        <p>
+            Built with HTML, CSS & JavaScript.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+       
